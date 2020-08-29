@@ -1,0 +1,11 @@
+C:\Users\aleyn\source\repos\MovieApp\MovieApp\bin\Debug\MovieApp.exe.config
+C:\Users\aleyn\source\repos\MovieApp\MovieApp\bin\Debug\MovieApp.exe
+C:\Users\aleyn\source\repos\MovieApp\MovieApp\bin\Debug\MovieApp.pdb
+C:\Users\aleyn\source\repos\MovieApp\MovieApp\obj\Debug\MovieApp.csprojAssemblyReference.cache
+C:\Users\aleyn\source\repos\MovieApp\MovieApp\obj\Debug\MovieApp.Form1.resources
+C:\Users\aleyn\source\repos\MovieApp\MovieApp\obj\Debug\MovieApp.Properties.Resources.resources
+C:\Users\aleyn\source\repos\MovieApp\MovieApp\obj\Debug\MovieApp.csproj.GenerateResource.cache
+C:\Users\aleyn\source\repos\MovieApp\MovieApp\obj\Debug\MovieApp.csproj.CoreCompileInputs.cache
+C:\Users\aleyn\source\repos\MovieApp\MovieApp\obj\Debug\MovieApp.exe
+C:\Users\aleyn\source\repos\MovieApp\MovieApp\obj\Debug\MovieApp.pdb
+C:\Users\aleyn\source\repos\MovieApp\MovieApp\obj\Debug\MovieApp.Form2.resources
