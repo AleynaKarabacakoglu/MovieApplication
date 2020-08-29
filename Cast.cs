@@ -10,6 +10,7 @@ namespace MovieApp
 {
     public class Cast
     {   
+
         public string ImdbId { get; set; }
         public string Name { get; set; }
 
