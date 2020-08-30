@@ -6,10 +6,10 @@ using System.Windows.Forms;
 
 namespace MovieApp
 {
-    public partial class Form1 : Form
+    public partial class MovieForm : Form
     {
         
-        public Form1()
+        public MovieForm()
         {
             InitializeComponent();
         }
@@ -291,15 +291,14 @@ namespace MovieApp
                 movie.Name = result.Substring(startIndex, endIndex - startIndex);
 
                 movies.Add(movie);
-                lstMovies.Items.Add(movie);
-               
+                lstMovies.Items.Add(movie);              
             }
             Console.WriteLine(result);
         }
 
         private void lstDirector_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Form2 frm2 = new Form2();
+            DescriptionForm frm2 = new DescriptionForm();
             frm2.IMdbId = directors[lstDirector.SelectedIndex].ImdbId;
             frm2.Show();
             
@@ -307,7 +306,7 @@ namespace MovieApp
 
         private void lstWriter_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Form2 frm2 = new Form2();
+            DescriptionForm frm2 = new DescriptionForm();
             frm2.IMdbId = writers[lstWriter.SelectedIndex].ImdbId;
             frm2.Show();
             
@@ -317,14 +316,11 @@ namespace MovieApp
 
         private void lstStars_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Form2 frm2 = new Form2();
+            DescriptionForm frm2 = new DescriptionForm();
             frm2.IMdbId = stars[lstStars.SelectedIndex].ImdbId;
             frm2.Show();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

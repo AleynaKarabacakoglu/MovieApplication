@@ -1,6 +1,6 @@
 ﻿namespace MovieApp
 {
-    partial class Form2
+    partial class DescriptionForm
     {
         /// <summary>
         /// Required designer variable.
@@ -61,7 +61,7 @@
             this.lblName.TabIndex = 4;
             this.lblName.Text = "label1";
             // 
-            // Form2
+            // DescriptionForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -69,8 +69,8 @@
             this.Controls.Add(this.lblName);
             this.Controls.Add(this.txtBio);
             this.Controls.Add(this.pictureBoxCast);
-            this.Name = "Form2";
-            this.Text = "Form2";
+            this.Name = "DescriptionForm";
+            this.Text = "DescriptionForm";
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCast)).EndInit();
             this.ResumeLayout(false);

@@ -1,6 +1,6 @@
 ﻿namespace MovieApp
 {
-    partial class Form1
+    partial class MovieForm
     {
        
        
@@ -169,7 +169,7 @@
             this.lstStars.Visible = false;
             this.lstStars.SelectedIndexChanged += new System.EventHandler(this.lstStars_SelectedIndexChanged);
             // 
-            // Form1
+            // MovieForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -187,9 +187,8 @@
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.txtMovieName);
             this.Controls.Add(this.lstMovies);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Name = "MovieForm";
+            this.Text = "MovieForm";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMovie)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

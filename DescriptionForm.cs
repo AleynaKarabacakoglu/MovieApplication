@@ -11,11 +11,11 @@ using System.Windows.Forms;
 
 namespace MovieApp
 {
-    public partial class Form2 : Form
+    public partial class DescriptionForm : Form
     {
         public string IMdbId;
        
-        public Form2()
+        public DescriptionForm()
         {
             InitializeComponent();
         }
